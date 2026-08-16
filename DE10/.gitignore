@@ -1,0 +1,28 @@
+# Quartus Prime 编译中间产物
+db/
+incremental_db/
+simulation/
+.qsys_edit/
+*.qws
+*.bak
+*.dpf
+*.qarlog
+
+# 编译报告与中间文件（output_files 内保留 .sof / .jic）
+*.rpt
+*.smsg
+*.summary
+*.done
+*.pin
+*.jdi
+*.sld
+*.cdf
+*.map
+
+# 备份压缩包
+*.zip
+
+# Eclipse / Nios II EDS 元数据与编译产物
+.metadata/
+obj/
+RemoteSystemsTempFiles/
